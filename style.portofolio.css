@@ -22,17 +22,19 @@ body {
 /* smartphone */
 .header > img{
 	width: 100%;
+	height: auto;
 }
 /* tablet */
 @media (min-width: 768px){
 	.header > img {
 		width: 80%;
+		height: auto;
 	}
 }
  /* PC */
 @media (min-width: 992px){
 	.header > img {
-		width: 30%;
+		width: 50%;
 	}
 }
 /* gambar jadi mencong huhu, dibenerin lagi nanti wind */
