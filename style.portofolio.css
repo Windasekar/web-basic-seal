@@ -18,6 +18,29 @@ body {
     border-bottom: 5px solid black;
     box-sizing: border-box;
 }
+/* CSS MEDIA QUERY */
+/* smartphone */
+.header > img{
+	width: 100%;
+}
+/* tablet */
+@media (min-width: 768px){
+	.header > img {
+		width: 80%;
+	}
+}
+ /* PC */
+@media (min-width: 992px){
+	.header > img {
+		width: 30%;
+	}
+}
+/* gambar jadi mencong huhu, dibenerin lagi nanti wind */
+/* display untuk smartphone: 0px - 576px */
+/* display untuk tablet: 576px - 768px */
+/* display untuk PC: >768px */
+
+
 .header h1 {
 	background-color: black;
 	padding-top: 20px;
